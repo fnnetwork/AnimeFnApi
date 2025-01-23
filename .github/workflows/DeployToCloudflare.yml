@@ -17,7 +17,7 @@ jobs:
       - name: Install Dependencies
         run: npm install
       - name: Install cheerio
-        run: npm install --save npm install cheerio
+        run: npm install --save npm install cheerio@1.0.0-rc.2
       - name: Install crypto-js
         run: npm install --save npm install crypto-js
       - name: Build & Deploy Worker
